@@ -1,0 +1,19 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "electron": "electron src",
+    "start": "NODE_ENV=dev nodemon --watch ./src/**/* --watch . --exec 'yarn electron'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.12"
+  },
+  "dependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
